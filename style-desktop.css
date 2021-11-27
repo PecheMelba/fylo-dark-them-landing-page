@@ -88,6 +88,7 @@
         position: relative;
         display:flex;
         justify-content: space-around;
+        align-items:center;
         margin-bottom: 19em;
     }
     #quote-img
@@ -101,6 +102,11 @@
     {
         width:24%;
         z-index: 1;
+    }
+    .testimonial img
+    {
+        width:14%;
+        height:14%;
     }
     /* ------------GET READY--------------- */
     #get-ready-pannel
