@@ -1,0 +1,179 @@
+@media all and (min-width: 900px)
+{
+    /* ----------HEADER---------- */
+    #top-logo { width:10%;}
+    header
+    {
+        margin:2em 0 7em 0;
+    }
+    /* --------------GET STARTED------------ */
+    #intro-illustration
+    {
+        width:50%;
+        margin: 0 auto 1.5em auto;
+    }
+    #get-started-title
+    {
+        line-height: 1.8em;
+        width: 60%;
+    }
+    #get-started-pannel p
+    {
+        width:45%;
+        font-size:0.9em;
+        margin: 0 auto 0 auto;
+    }
+    #get-started-btn
+    {
+        width:20%;
+        margin: 1.5em auto 8em auto;
+    }
+    /* ------------FEATURES--------- */
+    #features-pannel
+    {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap:6em;
+        row-gap: 5em;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width:70%;
+
+        margin-bottom: 5em;
+    }
+    #features-pannel h3
+    {
+        margin-bottom: 0.5em;
+        font-size: 1em;
+    }
+    #features-pannel p
+    {
+        margin-bottom: 0em;
+        font-size:0.7em
+    }
+    #features-pannel img
+    {
+        width:auto;
+        height:3.5em;
+        margin-bottom: 1em;
+    }
+    /* --------------STAY PRODUCTIVE------------- */
+    #stay-productiver-pannel
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+    #stay-productiver-pannel h1
+    {
+        font-size: 1.8em;
+        width:65%;
+        margin-bottom: 0.7em;
+    }
+    #stay-productiver-pannel p
+    {
+        font-size: 0.75em;
+        width:auto;
+        margin-bottom: 0.8em;
+    }
+    #workflow-link {font-size:0.7em; width:28%;}
+    #productive-image { width:50%; margin: 0 3em 2em auto; }
+
+    /* ----------TESTIMONIALS----------- */
+    #testimonial-pannel
+    {
+        position: relative;
+        display:flex;
+        justify-content: space-around;
+        margin-bottom: 19em;
+    }
+    #quote-img
+    {
+        position: absolute;
+        left:-0.7vw;
+        top: -2.2vw;
+        width:4%;
+    }
+    .testimonial
+    {
+        width:24%;
+        z-index: 1;
+    }
+    /* ------------GET READY--------------- */
+    #get-ready-pannel
+    {
+        position: absolute;
+        transform: translate(30%,-8em);
+        width: 60%;
+    }
+    #get-ready-btn-container
+    {
+        display: flex;
+        justify-content:center;
+        margin: 0 auto;
+    }
+    #email-input
+    {
+        width:50%;
+        padding: 1em 1em;
+        margin: 0 auto;
+    }
+    #get-started-free-btn
+    {
+        padding: 1em 1em;
+        margin-bottom:0;
+        width:25%;
+        font-size:0.8em
+    }
+    /* ----------FOOTER-------- */
+    #footer-logo
+    {
+        position: absolute;
+        top:42%;
+        left:10%;
+        margin:0;
+        width:10%;
+    }
+    #footer-menu-container
+    {
+        display:flex;
+        justify-content:center;
+        align-items: flex-start;
+        padding: 20em 0 5em 0;
+        font-size:0.7em;
+    }
+    #footer-location-container
+    {
+        margin-bottom: 0em;
+        margin-right: 4em;
+        width:30%;
+    }
+    #footer-phone-nb-container, #footer-mail-container
+    {
+        margin:0 0 1em 0;
+    }
+
+    .footer-menu
+    {
+        position: relative;
+        margin-bottom: 0em;
+        padding-top: 0em;
+        width:15%;
+    }
+    #contact-container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #about-us-menu
+    {
+        margin-left: 6em;
+    }
+    #social-networks-container
+    {        
+        width:20%;
+    }
+}

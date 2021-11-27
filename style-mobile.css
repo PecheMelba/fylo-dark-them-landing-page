@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+
+    font-family: "Open Sans";
+    color:rgb(218, 218, 218);
+    list-style-type:none;
+}
+body{ background-color: hsl(218, 28%, 13%);}
+main
+{
+    width: 90%;
+    margin: 0 auto;
+}
+h1, h2, h3 {color:white;}
+/* ----------HEADER---------- */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin:2em 0 2em 0;
+    font-size: 0.8em;
+}
+#top-logo { width:25%;}
+#top-menu{ display:flex;}
+#top-menu li{ margin-left: 1em;}
+#top-menu li:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;    
+}
+
+/* --------------GET STARTED------------ */
+#get-started-pannel
+{
+    text-align: center;
+}
+#intro-illustration
+{
+    width:100%;
+    margin-bottom: 1.5em;
+}
+#get-started-title
+{
+    line-height: 1.5em;
+    width: 90%;
+    margin: 0 auto 1em auto;
+    font-size: 1.4em;
+}
+#get-started-btn
+{
+    margin: 2em auto 8em auto;
+    background: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 2em;
+    width:65%;
+    padding: 0.8em 1em;
+    color:white;
+}
+#get-started-btn:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* ------------FEATURES--------- */
+#features-pannel
+{
+    text-align: center;
+    width:90%;
+    margin:0 auto;
+}
+#features-pannel h3
+{
+    margin-bottom: 0.7em;
+}
+#features-pannel p
+{
+    margin-bottom: 6em;
+}
+#features-pannel img
+{
+    width:20%;
+    margin-bottom: 2em;
+}
+
+/* --------------STAY PRODUCTIVE------------- */
+
+#productive-image { width:100%; margin: 0 auto 2em auto; }
+
+#stay-productiver-pannel h1
+{
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+}
+#stay-productiver-pannel p
+{
+    font-size: 0.9em;
+    margin-bottom: 1.3em;
+}
+#workflow-link
+{
+    display: flex;
+    align-items: center;
+    color:hsl(177, 60%, 50%);
+    border-bottom: 1px solid hsl(198, 60%, 50%);
+    width:10.6em;
+    margin-bottom: 10em;
+}
+#workflow-link:hover
+{
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid hsl(0, 0%, 82%);
+
+}
+#workflow-link img{margin-left: 0.5em;}
+
+/* ----------TESTIMONIALS----------- */
+#testimonial-pannel
+{
+    margin-bottom: 19em;
+}
+#quote-img
+{
+    display:block;
+    width:7%;
+    padding-left: 1em;
+}
+.testimonial
+{
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom:1.7em;
+    border-radius: 0.5em;
+    padding:1.7em 2em;
+}
+
+.testimonial p
+{
+    font-size:0.7em;
+    margin-bottom:2em;
+
+}
+.testimonial img
+{
+    width:12%;
+    border-radius: 50%;
+    margin-right: 0.7em;
+}
+.auhtor-container
+{
+    display: flex;
+}
+.auhtor-name
+{
+    font-weight: bold;
+    font-size:0.7em;
+    margin-bottom:0.3em;
+}
+.auhtor-job
+{
+    font-size:0.5em;
+}
+
+/* ------------GET READY--------------- */
+#get-ready-pannel
+{
+    position: absolute;
+    transform: translate(4%,-10em);
+    background: hsl(217, 28%, 15%);
+    border-radius: 0.5em;
+    margin: 0 auto 3em auto;
+    width: 83%;
+    padding: 2.5em 1em 2.5em 1em;
+    text-align:center;
+}
+#get-ready-pannel h2
+{
+    font-size:1.1em;
+    margin-bottom:1em;
+}
+#get-ready-pannel p
+{
+    font-size:0.9em;
+    margin-bottom:1.7em;
+}
+#email-input, #get-started-free-btn
+{
+    padding: 1.3em 1em;
+    border-radius:2em;
+    text-align: center;
+    width:80%;
+    margin-bottom:1.7em;
+}
+#get-started-free-btn
+{
+    padding: 1em 1em;
+    background: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color:white;
+    margin: 0 auto
+}
+#get-started-free-btn:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#error-msg 
+{
+    display:none;
+    color:red;
+    font-size: bold;
+    font-size:0.7em;
+    text-align: left;
+    width:50%;
+    margin-left: 10%;
+}
+/* ----------FOOTER----------- */
+footer
+{
+    position: relative;
+    background-color: hsl(216, 53%, 9%); 
+}
+#footer-menu-container
+{
+    width:80%;
+    margin: 0 auto;
+}
+#footer-logo
+{
+    margin: 17em 0 3em 0;
+}
+#footer-location-container, #footer-phone-nb-container, #footer-mail-container
+{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+}
+#footer-phone-nb-container, #footer-mail-container
+{
+    align-items: center;
+}
+#footer-mail-container
+{
+    margin-bottom: 4em;
+}
+.icon-image
+{
+    width: 1.2em;
+    height:1.2em;
+    margin: 0.5em 1.5em 0 0;
+}
+.footer-menu
+{
+    margin-bottom: 3em;
+}
+.footer-menu li
+{
+    margin-bottom: 1em;
+}
+.footer-menu li:hover
+{
+    cursor: pointer;
+    font-weight:bold;
+}
+#social-networks-container
+{
+    text-align: center;
+    padding-bottom: 3em;
+}
+#social-networks-container img
+{
+    margin-left: 1em;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(24%) hue-rotate(66deg) brightness(107%) contrast(106%);
+}
+#social-networks-container img:hover
+{
+    cursor:pointer;
+    filter: brightness(0) saturate(100%) invert(45%) sepia(43%) saturate(2992%) hue-rotate(153deg) brightness(101%) contrast(101%);
+}
